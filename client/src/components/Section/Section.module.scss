@@ -1,5 +1,28 @@
+// Container for all sections
 .container {
-    height: 300px;
+    height: 520px;
     width: 100vw;
-    background-color: lightcoral;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .firstSectionContainer {
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    & .secondSectionContainer {
+        height: 100%;
+        width: 100%;
+
+    & .picture {
+        height:100%;
+        width: 50%;
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 }

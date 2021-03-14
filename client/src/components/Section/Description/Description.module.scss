@@ -1,0 +1,23 @@
+@import '../../../styles//variables.scss';
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+
+    & h1 {
+        color: $primary;
+    }
+
+    & a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    & span {
+        font-weight: bold;
+        color: $primary;
+    }
+}
