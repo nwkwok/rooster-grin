@@ -3,9 +3,9 @@ import style from './Button.module.scss'
 
 function Button(props) {
     return (
-            <div className={style.button} style={{backgroundColor: props.button}}>
-                {props.text}
-            </div>
+        <div className={style.button} style={{backgroundColor: props.button}}>
+            {props.text}
+        </div>
     )
 }
 
