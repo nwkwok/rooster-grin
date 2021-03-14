@@ -1,8 +1,10 @@
 import './App.module.scss'
+import Banner from './components/Banner/Banner'
+import Hero from './components/Hero/Hero'
 
 function App() {
   return(
-    <h1>Hello World</h1>
+    <Hero />
 
   )
 }
