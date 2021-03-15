@@ -24,14 +24,16 @@ const sections = {
   },
   firstBanner: {
     title: 'LOREM IPSUM',
-    buttonText: 'First Banner',
-    button: '#FF7219'
+    buttonText: 'First Banner Btn',
+    button: '#FF7219',
+    align: 'center'
   },
   secondBanner: {
     title: 'LOREM IPSUM',
     content: 'This is the random content that I\'m writing for the first description box in the first section. Could have used Lorem Ipsum. Oh well! I already started typing...',
     buttonText: 'Second Banner',
     button: '#FF7219'
+    
   }
 }
 
@@ -49,8 +51,9 @@ function App() {
         picture={Picture}/>
       <Banner 
         title={sections.firstBanner.title}
-        buttonText={sections.firstBanner.buttontext}
+        buttonText={sections.firstBanner.buttonText}
         button={sections.firstBanner.button}
+        align={sections.firstBanner.align}
         banner={FirstBanner}
          />
       <Section 
@@ -58,7 +61,7 @@ function App() {
         content={sections.second.content} 
         hasLink={true}
         link={sections.second.link} 
-        hasPicture={false}
+        hasIcons={true}
       />
       <Banner 
         title={sections.secondBanner.title}
@@ -70,8 +73,7 @@ function App() {
       <Section
         title={sections.third.title} 
         content={sections.third.content} 
-        hasPicture={false}
-        hasLink={false}
+        hasCarousel={true}
         /> 
       <Footer />
     </>

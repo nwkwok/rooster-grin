@@ -13,15 +13,26 @@ function Section(props) {
                 link={props.link}
                 hasLink={props.hasLink}/>
             </div>
-        { props.hasPicture ? 
+
+        {/* For second section with picture */}
+        { props.hasPicture && 
             <div 
-                className={style.secondSectionContainer}
+                className={style.secondSectionContainerPicture}
                 style={{backgroundImage: `url(${props.picture})`}}>
-                </div> :    
+                </div> }
+
+        {/* For second section with icons */}
+        { props.hasIcons && 
             <div 
-                className={style.secondSectionContainer}>
-                Icons Images</div>
-        }
+            className={style.secondSectionContainerIcons}>
+            For Icons</div> }
+
+        {/* For second section with Carousel */}                    
+        { props.hasCarousel && 
+            <div 
+            className={style.secondSectionContainerCarousel}>
+            This is for the carousel</div> }                    
+        
 
         </div>
         </>

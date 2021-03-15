@@ -1,7 +1,7 @@
 // Container for all sections
 .container {
     height: 520px;
-    width: 100vw;
+    width: 100%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -13,7 +13,8 @@
         
     }
 
-    & .secondSectionContainer {
+// For second section with picture
+    & .secondSectionContainerPicture {
         height: 100%;
         width: 100%;
 
@@ -23,6 +24,18 @@
         background-position: cover;
         background-repeat: no-repeat;
     }
+}
+
+// For second section with icons
+& .secondSectionContainerIcons {
+    height: 100%;
+    width: 100%;
+}
+
+// For second section with carousel
+& .secondSectionContainerCarousel {
+    height: 100%;
+    width: 100%;
 }
 
 }

@@ -1,4 +1,29 @@
+@import '../../styles/variables.scss';
+
 .container {
+    padding-top: 10px;
     width: 100%;
     height: 100px;
+    background-color: $background-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .socialMedia {
+        height: 100%;
+        width: 10%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+
+        & .instagram {
+            height: 50px;
+            width: 50px;
+        }
+        & .facebook {
+            height: 50px;
+            width: 50px;
+        }
+    }
 }

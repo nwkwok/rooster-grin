@@ -1,5 +1,30 @@
+@import '../../styles/variables.scss';
+
 .container {
     height: 600px;
-    width: 100vw;
-    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+
+
+    & .descriptionContainer {
+        width: 45%;
+        position: relative;
+        top: 50%;
+        transform: translate(0, -55%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+
+        & h1 {
+            color: $primary;
+        }
+
+        & p {
+            margin-top: -10px;
+            width: 350px;
+        }
+    }
 }

@@ -1,6 +1,5 @@
 @import '../../../styles/variables.scss';
 
-
 .button {
     height: 50px;
     line-height: 50px;
@@ -8,7 +7,4 @@
     width: 150px;
     color: white;
     text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
