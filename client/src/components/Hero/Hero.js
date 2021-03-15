@@ -7,7 +7,7 @@ import { Reveal, Tween } from 'react-gsap';
 
 function Hero() {
     return (
-        <div className={style.container}>
+        <div id="hero" className={style.container}>
             <img className={style.RGLogo} src={RGLogo} alt="RG-Logo"/>
             <Reveal repeat>
             <Tween from={{ opacity: 0 }} duration={2}>

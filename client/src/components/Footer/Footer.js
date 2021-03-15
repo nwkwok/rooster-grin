@@ -10,13 +10,13 @@ function Footer() {
             Follow us:
             <div className={style.socialMedia}>
                 <div className={style.instagram}>
-                    <a href="#">
+                    <a href="#hero">
                     <IG />
                     </a>
                   
                 </div>
                 <div className={style.facebook}>
-                    <a href="">
+                    <a href="#hero">
                     <FB />
                     </a>
                     
