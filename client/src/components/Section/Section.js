@@ -17,7 +17,8 @@ function Section(props) {
                 title={props.title}
                 content={props.content}
                 link={props.link}
-                hasLink={props.hasLink}/>
+                hasLink={props.hasLink}
+                hasStars={props.hasStars}/>
             </div>
 
         {/* For second section with picture */}

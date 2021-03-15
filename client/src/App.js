@@ -20,7 +20,6 @@ const sections = {
   },
   third: {
     title: 'LOREM IPSUM DOLOR SIT AMET',
-    content: 'stars image'
   },
   firstBanner: {
     title: 'LOREM IPSUM',
@@ -74,6 +73,7 @@ function App() {
         title={sections.third.title} 
         content={sections.third.content} 
         hasCarousel={true}
+        hasStars={true}
         /> 
       <Footer />
     </>

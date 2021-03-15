@@ -21,4 +21,9 @@
         font-weight: bold;
         color: $primary;
     }
+
+    & .stars {
+        height: 50px;
+        width: 200px;
+    }
 }

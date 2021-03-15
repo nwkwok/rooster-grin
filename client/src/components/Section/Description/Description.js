@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Description.module.scss'
 import Button from '../../Utility/Button/Button'
+import Stars from '../../../assets/stars.png'
 
 function Description(props) {
     return (
@@ -10,6 +11,11 @@ function Description(props) {
             {props.hasLink &&
                 <a href='{props.link}'> <span>{'> '}</span> More information </a> 
             }
+            {props.hasStars && 
+                <img 
+                    src={Stars} 
+                    alt="stars"
+                    className={style.stars} />}
         </div>
     )
 }
