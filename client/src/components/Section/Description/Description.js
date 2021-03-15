@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './Description.module.scss'
-import Button from '../../Utility/Button/Button'
 import Stars from '../../../assets/stars.png'
 
 function Description(props) {
