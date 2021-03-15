@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 // Container for all sections
 .container {
     height: 520px;
@@ -30,6 +32,24 @@
 & .secondSectionContainerIcons {
     height: 100%;
     width: 100%;
+    background-color: $background-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .iconContainer {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        & > * {
+            flex: 1 0 50%;
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
 
 // For second section with carousel

@@ -1,6 +1,12 @@
 import React from 'react'
 import style from './Section.module.scss'
 import Description from './Description/Description'
+import Carousel from './Carousel/Carousel'
+import {ReactComponent as Expertise} from '../../assets/home-expertise.svg'
+import {ReactComponent as Hygiene} from '../../assets/home-hygiene.svg'
+import {ReactComponent as Lab} from '../../assets/home-lab.svg'
+import {ReactComponent as Retention} from '../../assets/home-retention.svg'
+
 
 function Section(props) {
     return (
@@ -24,14 +30,24 @@ function Section(props) {
         {/* For second section with icons */}
         { props.hasIcons && 
             <div 
-            className={style.secondSectionContainerIcons}>
-            For Icons</div> }
+                className={style.secondSectionContainerIcons}>
+                <div className={style.iconContainer}>
+                    <Expertise />
+                    <Hygiene />
+                    <Lab />
+                    <Retention />
+                </div>
+                
+                
+            </div> 
+            }
 
         {/* For second section with Carousel */}                    
         { props.hasCarousel && 
             <div 
-            className={style.secondSectionContainerCarousel}>
-            This is for the carousel</div> }                    
+                className={style.secondSectionContainerCarousel}>
+                    <Carousel />
+            </div> }                    
         
 
         </div>

@@ -1,0 +1,17 @@
+@import '../../../styles/variables.scss';
+
+.carouselContainer {
+    height:100%;
+    width:100%;
+    margin-top: 150px;
+}
+
+
+h3 {
+    color: $primary;
+    text-align: center;
+}
+
+p {
+    margin: 0 100px;
+}
