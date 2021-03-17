@@ -70,17 +70,36 @@
 
 // Laptop
 @media screen and (min-device-width: 1440px) {
+    .secondSectionContainerCarouselNotLaptop {
+        display: none;
+    }
 }
 
 @media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+    .secondSectionContainerCarouselNotLaptop {
+        display: none;
+    }
 }
 
 // Tablet
 @media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+    .container .secondSectionContainerCarousel {
+       display: none;
+    }
+
+    .secondSectionContainerCarouselNotLaptop {
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
+    
 }
 
 // Landscape phone
 @media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+
+    .container .secondSectionContainerCarousel {
+        display: none;
+     }
 
     .container .secondSectionContainerPicture {
         width: 80%;
@@ -94,12 +113,21 @@
         height: 110px;
         width: 110px;
     }
+    .secondSectionContainerCarouselNotLaptop {
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
 
 
 }
 
 // Portait phone
 @media screen and (max-device-width: 543px) {
+
+    .container .secondSectionContainerCarousel {
+        display: none;
+     }
+
     .container .secondSectionContainerIcons .iconContainer .icon{
         height: 50px;
         width: 50px
@@ -108,6 +136,10 @@
         height: 70px;
         width: 70px;
         transform: translate(-13px, -10px);
+    }
+    .secondSectionContainerCarouselNotLaptop {
+        margin-top: -200px;
+        margin-bottom: 50px;
     }
 
 }

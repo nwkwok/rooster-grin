@@ -44,7 +44,9 @@ function App() {
         title={sections.third.title} 
         content={sections.third.content} 
         hasCarousel={true}
+        isLaptop={true}
         hasStars={true}
+        isNotLaptop={true}
         /> 
       <Footer />
     </>

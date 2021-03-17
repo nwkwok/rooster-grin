@@ -8,8 +8,7 @@ function Carousel() {
     <div className={style.carouselContainer}>
         <Slider 
             dots 
-            centerMode 
-            
+            centerMode
             >
             <div className={style.carouselComment}>
                 <h3 className={style.commentTitle}>

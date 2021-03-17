@@ -82,9 +82,8 @@ function Section(props) {
             </div>
           </div>
         )}
-
         {/* For second section with Carousel */}
-        {props.hasCarousel && (
+        {(props.hasCarousel & props.isLaptop) ? (
           <Reveal repeat>
             <FadeInRight>
               <div id='carousel' className={style.secondSectionContainerCarousel}>
@@ -92,8 +91,18 @@ function Section(props) {
               </div>
             </FadeInRight>
           </Reveal>
-        )}
+        ): null}
       </div>
+
+      {(props.hasCarousel & props.isNotLaptop) ? (
+          <Reveal repeat>
+            <FadeInRight>
+              <div id='carousel' className={style.secondSectionContainerCarouselNotLaptop}>
+                <Carousel />
+              </div>
+            </FadeInRight>
+          </Reveal>
+        ): null}
     </>
   );
 }
