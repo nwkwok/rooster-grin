@@ -47,11 +47,11 @@
 }
 
 // Laptop
-@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+@media screen and (max-width: 1400px) and (min-width: 935px) {
 }
 
 // Tablet
-@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+@media screen and (max-width: 935px) and (min-width: 768px) {
 
     .container .descriptionContainerRight {
         margin-right: 60px;
@@ -60,7 +60,7 @@
 }
 
 // Landscape phone
-@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+@media screen and (max-width: 768px) and (min-width: 543px) {
     .container .descriptionContainerRight {
         margin-right: 60px;
     }
@@ -74,7 +74,7 @@
 }
 
 // Portait phone
-@media screen and (max-device-width: 543px) {
+@media screen and (max-width: 543px) {
     .container .descriptionContainerRight {
         margin-right: 50px;
     }

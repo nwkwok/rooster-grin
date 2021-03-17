@@ -74,20 +74,20 @@
 
 
 // Laptop
-@media screen and (min-device-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .secondSectionContainerCarouselNotLaptop {
         display: none;
     }
 }
 
-@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+@media screen and (max-width: 1400px) and (min-width: 935px) {
     .secondSectionContainerCarouselNotLaptop {
         display: none;
     }
 }
 
 // Tablet
-@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+@media screen and (max-width: 935px) and (min-width: 768px) {
     .container .secondSectionContainerCarousel {
        display: none;
     }
@@ -100,7 +100,7 @@
 }
 
 // Landscape phone
-@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+@media screen and (max-width: 768px) and (min-width: 543px) {
 
     .container .secondSectionContainerCarousel {
         display: none;
@@ -127,7 +127,7 @@
 }
 
 // Portait phone
-@media screen and (max-device-width: 543px) {
+@media screen and (max-width: 543px) {
 
     .container .secondSectionContainerCarousel {
         display: none;

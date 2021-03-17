@@ -38,31 +38,31 @@
 
 
 // Laptop
-@media screen and (min-device-width: 1440px) {
+@media screen and (min-width: 1440px) {
 }
 
-@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+@media screen and (max-width: 1400px) and (min-width: 935px) {
     .container .socialMedia .instagram {
         margin-right: 5px;
     }
 }
 
 // Tablet
-@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+@media screen and (max-width: 935px) and (min-width: 768px) {
     .container .socialMedia .instagram {
         margin-right: 5px;
     }
 }
 
 // Landscape phone
-@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+@media screen and (max-width: 768px) and (min-width: 543px) {
     .container .socialMedia .instagram {
         margin-right: 5px;
     }
 }
 
 // Portait phone
-@media screen and (max-device-width: 543px) {
+@media screen and (max-width: 543px) {
     .container .socialMedia .instagram {
         margin-right: 5px;
     }

@@ -43,10 +43,9 @@
 }
 // Laptop
 
-
-    @media screen 
-    and (max-device-width: 1400px)
-    and (min-device-width: 935px)
+    @media only screen 
+    and (max-width: 1400px)
+    and (min-width: 935px)
     {
         .container .HeroTitleContainer .first{
             font-size: 70px;
@@ -57,9 +56,9 @@
     }
 
     // Tablet 
-    @media screen 
-    and (max-device-width: 935px)
-    and (min-device-width: 768px)
+    @media only screen 
+    and (max-width: 935px)
+    and (min-width: 768px)
     {
         .container {
             min-height: 80vh;
@@ -78,9 +77,9 @@
     }
 
     // Landscape phone
-    @media screen 
-    and (max-device-width: 768px)
-    and (min-device-width: 543px)
+    @media only screen 
+    and (max-width: 768px)
+    and (min-width: 543px)
     {
         .container {
             min-height: 70vh;
@@ -106,9 +105,9 @@
     }
 
     // Portait phone
-    @media screen 
-    and (max-device-width: 543px)
-    and (min-device-width: 375px)
+    @media only screen 
+    and (max-width: 543px)
+    and (min-width: 375px)
     {
         .container {
             min-height: 50vh;
