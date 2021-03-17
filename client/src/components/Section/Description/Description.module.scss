@@ -70,12 +70,17 @@
 
 // Portait phone
 @media screen and (max-device-width: 543px) {
+    .container {
+        padding-left: 40px;
+        margin-top: 20px;
+    }
     h1 {
         font-size: 20px;
     }
 
     p {
         font-size: 12px;
+        width: 100px;
     }
 
     a {

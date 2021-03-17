@@ -37,8 +37,9 @@ function Section(props) {
                 className={style.secondSectionContainerPicture}
                 style={{
                   backgroundImage: `url(${props.picture})`,
-                  backgroundPosition: 'cover',
+                  backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center'
                 }}
               ></div>
             </FadeInRight>
