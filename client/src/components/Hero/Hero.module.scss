@@ -2,11 +2,11 @@
 
 .container {
     min-height: 100vh;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: black;
     background-image: url('../../assets/hero.jpg');
     background-repeat: no-repeat;
-    // background-size: cover;
+    background-size: cover;
     background-position: center;
 
     & .RGLogo {
@@ -107,10 +107,10 @@
     // Portait phone
     @media only screen 
     and (max-width: 543px)
-    and (min-width: 320px)
+    and (min-width: 375px)
     {
         .container {
-            min-height: 60vh;
+            min-height: 50vh;
         }        
         .container .RGLogo{
             position: relative;
@@ -125,19 +125,19 @@
         }
 
         .container .HeroTitleContainer .first{
-            font-size: 24px;
+            font-size: 30px;
         }
         .container .HeroTitleContainer .second{
-            font-size: 12.5px
+            font-size: 20px
         }
     }
 
     @media only screen 
-    and (max-width: 320px)
-    and (min-width: 300px)
+    and (max-width: 414px)
+    and (min-width: 375px)
     {
         .container {
-            min-height: 60vh;
+            min-height: 50vh;
         }        
         .container .RGLogo{
             position: relative;
@@ -152,9 +152,36 @@
         }
 
         .container .HeroTitleContainer .first{
-            font-size: 22.5px;
+            font-size: 20px;
         }
         .container .HeroTitleContainer .second{
-            font-size: 10px
+            font-size: 11px
+        }
+    }
+
+    @media only screen 
+    and (max-width: 375px)
+    and (min-width: 320px)
+    {
+        .container {
+            min-height: 50vh;
+        }        
+        .container .RGLogo{
+            position: relative;
+            left: 50%;
+            top: 10%;
+            padding: 0;
+            transform: translate(-50%);
+        }
+
+        .container .HeroTitleContainer {
+            top: 30%;
+        }
+
+        .container .HeroTitleContainer .first{
+            font-size: 14px;
+        }
+        .container .HeroTitleContainer .second{
+            font-size: 11px
         }
     }
