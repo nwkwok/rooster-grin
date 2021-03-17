@@ -29,7 +29,7 @@
     width: 30%;
     position: relative;
     top: 50%;
-    transform: translate(-20%, -50%);
+    transform: translate(-33%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@
 @media screen and (max-device-width: 935px) and (min-device-width: 768px) {
 
     .container .descriptionContainerRight {
-        margin-right: 50px;
+        margin-right: 60px;
     }
 
 }
@@ -74,15 +74,15 @@
 }
 
 // Portait phone
-@media screen and (max-device-width: 543px) and (min-device-width: 375px) {
+@media screen and (max-device-width: 543px) {
     .container .descriptionContainerRight {
-        margin-right: 70px;
+        margin-right: 50px;
     }
     .container .descriptionContainerRight h1 {
         font-size: 17px;
     }
     .container .descriptionContainerRight p {
-        font-size: 12px;
+        font-size: 14px;
         width: 200px;
     }
 }

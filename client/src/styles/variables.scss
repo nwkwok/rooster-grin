@@ -16,6 +16,9 @@ $background-secondary: #FAFAFA;
 ///////////Media Queries/////////////
 
 // Laptop
+@media screen and (min-device-width: 1440px) {
+}
+
 @media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
 }
 
@@ -28,7 +31,7 @@ $background-secondary: #FAFAFA;
 }
 
 // Portait phone
-@media screen and (max-device-width: 543px) and (min-device-width: 375px) {
+@media screen and (max-device-width: 543px) {
 }
 
 */

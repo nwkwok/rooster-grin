@@ -28,3 +28,57 @@
         width: 200px;
     }
 }
+
+// Laptop
+@media screen and (min-device-width: 1440px) {
+}
+
+@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+}
+
+// Tablet
+@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}
+
+// Landscape phone
+@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
+
+// Portait phone
+@media screen and (max-device-width: 543px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
