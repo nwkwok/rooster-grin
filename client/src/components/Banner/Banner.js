@@ -21,7 +21,7 @@ function Banner(props) {
             <div id='second-banner' className={style.descriptionContainerRight}>
               {props.title && <h1 className={style.title}>{props.title}</h1>}
               {props.content && <p>{props.content}</p>}
-              <Link to='carousel' smooth={true}>
+              <Link to='footer' smooth={true}>
                 <Button text={props.buttonText} button='#ff7219' />
               </Link>
             </div>

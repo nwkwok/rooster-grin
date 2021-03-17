@@ -6,7 +6,7 @@ import { ReactComponent as IG} from '../../assets/instagram.svg'
 function Footer() {
     return (
         <>
-        <div className={style.container}>
+        <div className={style.container} id='footer'>
             Follow us:
             <div className={style.socialMedia}>
                 <div className={style.instagram}>
