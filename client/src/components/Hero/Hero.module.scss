@@ -41,8 +41,8 @@
         }
     }
 }
-
-@media screen 
+    // Laptop
+    @media screen 
     and (max-device-width: 1400px)
     and (min-device-width: 935px)
     {
@@ -54,6 +54,7 @@
         }
     }
 
+    // Tablet 
     @media screen 
     and (max-device-width: 935px)
     and (min-device-width: 768px)

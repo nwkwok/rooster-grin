@@ -12,8 +12,23 @@ $primary: #623475;
 //Secondary Background:
 $background-secondary: #FAFAFA;
 
+/*
+///////////Media Queries/////////////
 
-// High res (1920px)
-// Laptop (1366px)
-// Tablet (768px)
-// Mobile (360px)
+// Laptop
+@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+}
+
+// Tablet
+@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+}
+
+// Landscape phone
+@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+}
+
+// Portait phone
+@media screen and (max-device-width: 543px) and (min-device-width: 375px) {
+}
+
+*/

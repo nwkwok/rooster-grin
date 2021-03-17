@@ -11,6 +11,7 @@ function Banner(props) {
       className={style.container}
       style={{
         backgroundImage: `url(${props.banner})`,
+        backgroundSize: 'cover',
         justifyContent: `${props.align}`,
       }}
     >

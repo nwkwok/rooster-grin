@@ -1,48 +1,88 @@
 @import '../../styles/variables.scss';
 
 .container {
-    height: 600px;
-    width: 100%;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  // For first banner
+  & .descriptionContainerLeft {
+    width: 45%;
+    position: relative;
+    top: 50%;
+    transform: translate(-25%, -50%);
     display: flex;
-    justify-content: flex-end;
-    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 
+    & h1 {
+      color: $primary;
+    }
+  }
 
-// For first banner
-    & .descriptionContainerLeft {
-        width: 45%;
-        position: relative;
-        top: 50%;
-        transform: translate(-25%, -50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
+  // For second banner
+  & .descriptionContainerRight {
+    width: 30%;
+    position: relative;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 
-        & h1 {
-            color: $primary;
-        }
+    & h1 {
+      color: $primary;
     }
 
-// For second banner
-    & .descriptionContainerRight {
-        width: 30%;
-        position: relative;
-        top: 50%;
-        transform: translate(-20%, -50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-
-        & h1 {
-            color: $primary;
-        }
-
-        & p {
-            margin-top: -10px;
-            width: 350px;
-        }
+    & p {
+      margin-top: -10px;
+      width: 340px;
     }
+  }
 }
 
+// Laptop
+@media screen and (max-device-width: 1400px) and (min-device-width: 935px) {
+}
+
+// Tablet
+@media screen and (max-device-width: 935px) and (min-device-width: 768px) {
+
+    .container .descriptionContainerRight {
+        margin-right: 50px;
+    }
+
+}
+
+// Landscape phone
+@media screen and (max-device-width: 768px) and (min-device-width: 543px) {
+    .container .descriptionContainerRight {
+        margin-right: 60px;
+    }
+    .container .descriptionContainerRight h1 {
+        font-size: 20px;
+    }
+    .container .descriptionContainerRight p {
+        width: 250px;
+    }
+
+}
+
+// Portait phone
+@media screen and (max-device-width: 543px) and (min-device-width: 375px) {
+    .container .descriptionContainerRight {
+        margin-right: 70px;
+    }
+    .container .descriptionContainerRight h1 {
+        font-size: 17px;
+    }
+    .container .descriptionContainerRight p {
+        font-size: 12px;
+        width: 200px;
+    }
+}
