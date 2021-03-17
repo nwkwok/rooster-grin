@@ -61,6 +61,13 @@
     and (max-device-width: 935px)
     and (min-device-width: 768px)
     {
+        .container {
+            min-height: 80vh;
+        }      
+
+        .container .HeroTitleContainer {
+            top: 35%;
+        }
 
         .container .HeroTitleContainer .first{
             font-size: 50px;
@@ -75,6 +82,14 @@
     and (max-device-width: 768px)
     and (min-device-width: 543px)
     {
+        .container {
+            min-height: 70vh;
+        }      
+
+        .container .HeroTitleContainer {
+            top: 35%;
+        }
+
         .container .RGLogo{
             position: relative;
             left: 50%;
@@ -95,6 +110,9 @@
     and (max-device-width: 543px)
     and (min-device-width: 375px)
     {
+        .container {
+            min-height: 50vh;
+        }        
         .container .RGLogo{
             position: relative;
             left: 50%;

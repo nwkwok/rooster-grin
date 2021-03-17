@@ -46,6 +46,11 @@
             height: 100px;
             margin-bottom: 75px;
             width: 100px;
+            transition: all .25s;
+
+            &:hover{
+                transform: scale(1.1);
+            }
         }
 
         & .circle{

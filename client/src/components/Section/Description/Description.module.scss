@@ -26,6 +26,10 @@
     & .stars {
         height: 50px;
         width: 200px;
+        transition: all .25s;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
