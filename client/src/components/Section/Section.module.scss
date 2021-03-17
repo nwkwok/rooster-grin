@@ -23,8 +23,6 @@
     & .picture {
         height:100%;
         width: 50%;
-        background-position: cover;
-        background-repeat: no-repeat;
     }
 }
 
@@ -34,20 +32,29 @@
     width: 100%;
     background-color: $background-secondary;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     & .iconContainer {
         height: 60%;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        flex-wrap: wrap;
-        
-        & > * {
-            flex: 1 0 50%;
+        position: relative;
+
+        & .icon {
             height: 100px;
+            margin-bottom: 75px;
             width: 100px;
+        }
+
+        & .circle{
+            height: 140px;
+            width: 140px;
+            border-radius: 50%;
+            border: 1px solid $primary;
+            position: absolute;
+            transform: translate(-22px, -15px)
         }
     }
 }

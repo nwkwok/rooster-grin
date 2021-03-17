@@ -8,7 +8,7 @@ function Description(props) {
             <h1>{ props.title }</h1>
             <p>{ props.content} </p>
             {props.hasLink &&
-                <a href='{props.link}'> <span>{'> '}</span> More information </a> 
+                <a href={props.link}> <span>{'> '}</span> More information </a> 
             }
             {props.hasStars && 
                 <img 
