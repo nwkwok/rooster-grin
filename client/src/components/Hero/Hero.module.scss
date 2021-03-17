@@ -40,8 +40,74 @@
             
         }
     }
-
-
 }
 
+@media screen 
+    and (max-device-width: 1400px)
+    and (min-device-width: 935px)
+    {
+        .container .HeroTitleContainer .first{
+            font-size: 70px;
+        }
+        .container .HeroTitleContainer .second{
+            font-size: 60px
+        }
+    }
 
+    @media screen 
+    and (max-device-width: 935px)
+    and (min-device-width: 768px)
+    {
+
+        .container .HeroTitleContainer .first{
+            font-size: 50px;
+        }
+        .container .HeroTitleContainer .second{
+            font-size: 40px
+        }
+    }
+
+    // Landscape phone
+    @media screen 
+    and (max-device-width: 768px)
+    and (min-device-width: 543px)
+    {
+        .container .RGLogo{
+            position: relative;
+            left: 50%;
+            top: 10%;
+            padding: 0;
+            transform: translate(-50%);
+        }
+        .container .HeroTitleContainer .first{
+            font-size: 40px;
+        }
+        .container .HeroTitleContainer .second{
+            font-size: 30px
+        }
+    }
+
+    // Portait phone
+    @media screen 
+    and (max-device-width: 543px)
+    and (min-device-width: 375px)
+    {
+        .container .RGLogo{
+            position: relative;
+            left: 50%;
+            top: 10%;
+            padding: 0;
+            transform: translate(-50%);
+        }
+
+        .container .HeroTitleContainer {
+            top: 30%;
+        }
+
+        .container .HeroTitleContainer .first{
+            font-size: 30px;
+        }
+        .container .HeroTitleContainer .second{
+            font-size: 20px
+        }
+    }

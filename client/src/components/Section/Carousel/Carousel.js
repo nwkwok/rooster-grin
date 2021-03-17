@@ -9,7 +9,6 @@ function Carousel() {
         <Slider 
             dots 
             centerMode 
-            centerPadding
             
             >
             <div className={style.carouselComment}>
